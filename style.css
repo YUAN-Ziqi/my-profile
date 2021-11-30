@@ -1,0 +1,92 @@
+/*Colors and fonts */
+
+body{
+	background-color: rgb(255, 255, 255);
+	color:rgb(50, 50, 50);
+	font-family: Helvetica;
+	font-size: 17px;
+	font-weight: normal;
+	text-align: justify;
+	text-decoration: none;
+
+}
+
+h1,h2,h3{
+	font-family: Roboto;
+	letter-spacing: 10px;
+}
+
+h1{
+	color: #f7ab00;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+h2{
+	color: #f7ab00;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+a{
+	text-decoration: none;
+	color: #86b953;
+}
+a:hover{
+	color: #E31454;
+}
+
+/*Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;	
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-green{
+	background-color:#86b953;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-green: hover {
+    background-color: #f7ab00;
+    color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.lixt-inline li{
+	display: inline;
+	padding:10px;
+
+}
+
+.lixt-inline i{
+	font-size: 50px;
+	color: rgb(230, 230, 230);	
+}
+.lixt-inline i: hover{
+	font-size: 50px;
+	color: black;	
+}
+#introduction p{
+	margin-bottom: 40px;
+}
